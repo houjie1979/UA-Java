@@ -224,6 +224,7 @@
 					</plugin>
 					<!-- This plugin ensures we are actually building on JDK 6 -->
 					<!-- You need to create toolchains.xml in your .m2 folder -->
+					<!-- 
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-toolchains-plugin</artifactId>
@@ -246,6 +247,7 @@
 							</toolchains>
 						</configuration>
 					</plugin>
+					 -->
 				</plugins>
 			</build>
 		</profile>
